@@ -1,0 +1,93 @@
+/* General Page Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7fc;
+}
+
+/* Heading */
+#mainhead {
+    font-weight: bolder;
+    color: #0d2bf4;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Input Field */
+.inp {
+    padding: 12px;
+    width: 300px;
+    border: 2px solid #067bdb;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+/* Buttons */
+button {
+    padding: 12px 18px;
+    background-color: #067bdb;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #0976e2;
+}
+
+/* List Styling */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.list {
+    background: white;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 450px;
+}
+
+/* Task Text */
+.list span {
+    flex: 1;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Action Buttons */
+.list button {
+    margin-left: 10px;
+    font-size: 14px;
+    padding: 8px 12px;
+}
+
+/* Action Button Container */
+.buttonDiv {
+    margin-top: 30px;
+}
+
+.buttonDiv button {
+    margin: 10px;
+    font-size: 16px;
+    padding: 12px 18px;
+}
+
+/* Line-through effect for completed tasks */
+.completed {
+    text-decoration: line-through;
+    color: red;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
